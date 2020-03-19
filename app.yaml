@@ -1,0 +1,8 @@
+# env: use standard environment
+service: mecab-auto-updater
+runtime: go
+api_version: go1.8
+handlers:
+- url: /.*
+  script: _go_app
+
